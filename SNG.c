@@ -8,7 +8,7 @@ int snakeWaterGun(char you,char comp)
 	{
 		return 0;
 	}
-	else if((you=='s'&&comp=='w')||(you=='w'&&comp=='g')||(you=='g'&&comp=='s'))
+	else if((you=='s' && comp=='w')||(you=='w' && comp=='g')||(you=='g' && comp=='s'))
 	{
 		return 1;
 	}
